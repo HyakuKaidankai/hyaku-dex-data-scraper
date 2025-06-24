@@ -1,0 +1,20 @@
+{
+    "log_enabled": false,
+    "log_filename": "generate-dex-info.log",
+    "dex_files": [
+        {
+            "path": ".\\dexes\\Dex_Data.txt",
+            "marker": "BULBASAUR"
+        },
+        {
+            "path": ".\\dexes\\Dex_Hisui.txt",
+            "marker": "DECIDUEYE Hisuian"
+        },
+        {
+            "path": ".\\dexes\\Dex_Gen9.txt",
+            "marker": "Sprigatito"
+        }
+    ],
+    "filename": "dex_info.json",
+    "compressed_filename": "dex_info_compressed.json"
+}

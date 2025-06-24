@@ -10,7 +10,8 @@ Normally, we could use PokeAPI to obtain this information, but move lists on PTU
 
 ## Requirements
 
-This was developed using PowerShell 7.5.1. It probably wont work with older versions than 7, as the code makes use of ternary operators, which were introduced in 7.0. If needed, changing them to good old `if` statements should be trivial.
+Because of ternary operator usage, this script requires PowerShell 7.0 or higher.
+If needed, changing them to good old `if` statements should be trivial.
 
 ## Usage
 
@@ -33,4 +34,4 @@ Evolution conversion finished
 
 ## Debugging
 
-In addition to using native Powershell debugging capabilities in VS Code, I have added a `Write-Log` function that will write the given string to a log file. Its disabled by default, as it makes the script run magnitudes slower, but can be enabled by setting `$logEnabled` to `$true` in the `process_DexInfo.ps1` file.
+In addition to using native Powershell debugging capabilities in VS Code, I have added a `Write-Log` function that will write the given string to a log file. Its disabled by default, as it makes the script run magnitudes slower, but can be enabled by setting `log_enabled` to `true` in the `config.json` file.
