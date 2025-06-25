@@ -96683,7 +96683,7 @@ Level Up Move List
 35 Recover - Normal        
              § 40 Hyper Beam - Normal         
 45 Perish Song - Normal        
-             § 50 Judgement - Normal 
+             § 50 Judgment - Normal 
  
 TM Move List 
 01 Work Up, 02 Dragon Claw, 03 Psyshock, 04 Calm Mind, 

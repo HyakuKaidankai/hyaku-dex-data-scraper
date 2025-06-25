@@ -263,4 +263,4 @@ $dex = Convert-OtherMoves -dex $dex
 $dex = Convert-EvoLines -dex $dex
 
 # Generate the new dex_info.json file
-Write-DexFiles -dex $dex -fileName $conf.dex_info_file -fileNameCompressed $conf.dex_info_compressed_file
+Write-DexFiles -dex $dex -fileName $conf.filename -fileNameCompressed $conf.compressed_filename
